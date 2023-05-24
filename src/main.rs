@@ -13,7 +13,7 @@ use sea_orm::{ActiveValue, Database, DbErr, EntityTrait};
 // the whole database URL string follows the following format:
 // "protocol://username:password@host:port/database"
 // We put the database name (that last bit) in a separate variable simply for convenience.
-const DATABASE_URL: &str = "sqlite://database.db";
+const DATABASE_URL: &str = "mysql://root:my-secret-pw@localhost:3306/mysql";
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]

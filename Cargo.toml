@@ -14,5 +14,5 @@ members = [
 [dependencies]
 clap = { version = "4.3.0", features = ["derive"] }
 futures = "0.3.28"
-sea-orm = { version = "0.11.3", features = ["macros", "sqlx-sqlite", "runtime-tokio-rustls"] }
+sea-orm = { version = "0.11.3", features = ["macros", "sqlx-mysql", "runtime-tokio-rustls"] }
 tokio = { version = "1.28.1", features = ["rt-multi-thread", "macros"] }
